@@ -1,7 +1,7 @@
 #header {
 
-    /*flex-direction: row;*/
-    background-color: cyan;
+    flex-direction: row;
+    background-color: rgb(10, 156, 10);
     
   }
   #header .linkInstagram {
@@ -173,12 +173,12 @@
   }
   @keyframes mi-animacion {
       0% {
-          background-color: red;
+          background-color: rgb(241, 81, 81);
           width: 300px;
           color: white;
       }
       50% {
-          background-color: aqua;
+          background-color: rgb(34, 139, 34);
           width: 1400px;
           color: black;
       }
@@ -195,7 +195,7 @@
    }   
   .animacion {
       /*border: 1px solid;*/
-      background-color: rgb(63, 184, 184);
+      background-color: green;
       animation-name: mi-animacion;
       animation-iteration-count: initial;
       animation-timing-function: linear;
@@ -215,6 +215,6 @@
     height: px;
     width: px;
     /*border: 1px solid;*/
-    background: radial-gradient( rgb(221, 132, 132), rgb(136, 240, 136),brown); 
+    background: radial-gradient(red,rgb(8, 138, 8));
     /*background: radial-gradient(aqua, red);*/ 
 }
