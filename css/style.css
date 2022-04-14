@@ -11,7 +11,10 @@
       padding-right: 70px;
       padding-top: 20px;
   }
-  
+  #header .linkInstagram a {
+    color: black;
+    font-weight: bold;
+  }
   .navbar-nav {
   
           position: absolute;
@@ -19,8 +22,6 @@
           transform: translatex(-50%);
       
   }
-  
-  
   
   #header .header__menu {
       display: flex;
@@ -205,7 +206,7 @@
   
   }
   .grad-radial {
-    height: px;
+    height: 250px;
     width: px;
     /*border: 1px solid;*/
     background: radial-gradient( red,green); 
