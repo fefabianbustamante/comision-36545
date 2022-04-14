@@ -20,9 +20,13 @@
           position: absolute;
           left: 50%;
           transform: translatex(-50%);
-      
+          background-color: transparent;
   }
-  
+  .menuham {
+
+    z-index: 10 !important;
+    
+  }
   #header .header__menu {
       display: flex;
       font-size: 30px;
@@ -102,6 +106,16 @@
       grid-row: 2/3;
   
   
+  }
+  @media (max-width: 992px) {
+        .navbar-nav {     
+        background-color: green;
+        text-align: center;
+        font-weight: bold;
+        color: black;
+        background: radial-gradient( rgb(243, 58, 58),green); 
+}
+    
   }
    
   @media screen and (max-width: 700px ) { 
