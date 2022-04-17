@@ -1,20 +1,21 @@
 #header {
 
     flex-direction: row;
-    background-color: rgb(10, 156, 10);
-    
-  }
-  #header .linkInstagram {
+    background-color: green;
+    .linkInstagram {
       
-      font-size: 20px;
-      text-align-last: right;
-      padding-right: 70px;
-      padding-top: 20px;
-  }
-  #header .linkInstagram a {
-    color: black;
-    font-weight: bold;
-  }
+        font-size: 20px;
+        text-align-last: right;
+        padding-right: 70px;
+        padding-top: 20px;
+        a {
+            color: black;
+            font-weight: bold;
+          }
+
+    }
+    
+  } 
   .navbar-nav {
   
           position: absolute;
@@ -30,7 +31,13 @@
   .galeria {
     display: flex;
     justify-items: center;
+
   }
+  main {
+
+    position: relative;
+  }
+  
   #header .header__menu {
       display: flex;
       font-size: 30px;
