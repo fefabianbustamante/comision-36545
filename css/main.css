@@ -3,7 +3,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background-color: green;
 }
 
 #header .linkInstagram {
@@ -16,6 +15,30 @@
 #header .linkInstagram a {
   color: black;
   font-weight: bold;
+}
+
+#header #header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 30px;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#header .btn__estilo {
+  background-color: #228522;
+  color: black;
+  font-weight: bolder;
+  width: 20rem;
+  text-align: left;
+  border-radius: 20px;
+}
+
+#header .btn__estilo title {
+  background-color: yellow;
 }
 
 .navbar-nav {
@@ -34,22 +57,20 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-items: center;
+  height: 20px;
 }
 
 main {
   position: relative;
 }
 
-#header .header__menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-size: 30px;
-  width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.mainSize {
+  width: 85rem;
+  height: 50rem;
+}
+
+.main__bg {
+  background-color: green;
 }
 
 #header .header__menu ul {
@@ -64,10 +85,6 @@ main {
 
 #header .logo__menu {
   text-align: center;
-}
-
-#header .logo__menu img {
-  padding-top: 50px;
 }
 
 #header .logo__menu h1 {
@@ -252,7 +269,6 @@ main {
 }
 
 .animacion {
-  /*border: 1px solid;*/
   background-color: green;
   -webkit-animation-name: mi-animacion;
           animation-name: mi-animacion;
@@ -268,11 +284,9 @@ main {
 }
 
 .grad-radial {
-  height: 250px;
-  width: px;
-  /*border: 1px solid;*/
+  height: auto;
+  padding-bottom: 20px;
   background: radial-gradient(red, green);
-  /*background: radial-gradient(aqua, red);*/
 }
 
 .grad-radialdos {
