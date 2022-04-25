@@ -17,40 +17,20 @@
   font-weight: bold;
 }
 
-#header #header__menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-size: 30px;
-  width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+#header.logo__menu {
+  text-align: center;
 }
 
-#header .btn__estilo {
-  background-color: #228522;
-  color: black;
-  font-weight: bolder;
-  width: 20rem;
-  text-align: left;
-  border-radius: 20px;
+#header .menuham {
+  z-index: 10 !important;
 }
 
-#header .btn__estilo title {
-  background-color: yellow;
-}
-
-.navbar-nav {
+#header .navbar-nav {
   position: absolute;
   left: 50%;
   -webkit-transform: translatex(-50%);
           transform: translatex(-50%);
   background-color: transparent;
-}
-
-.menuham {
-  z-index: 10 !important;
 }
 
 .galeria {
@@ -98,7 +78,7 @@ main {
   display: grid;
   background-color: green;
   display: inline-block;
-  gap: 10px;
+  gap: 20px;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: 1fr 1fr;

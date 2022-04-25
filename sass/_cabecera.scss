@@ -1,0 +1,49 @@
+#header {
+
+    flex-direction: row;
+    
+    .linkInstagram {
+      
+        font-size: 20px;
+        text-align-last: right;
+        padding-right: 70px;
+        padding-top: 20px;
+        a {
+            color: black;
+            font-weight: bold;
+          }
+    
+    }
+//    & &__menu {
+ //       display: flex;
+ //       font-size: 30px;
+ //       width: 100%;
+ //       justify-content: center;
+    
+  //   } 
+     &.logo__menu {
+     
+   
+        text-align: center;
+        h1 {
+   
+            text-align: center;
+            font-weight: 200px;
+            font-size: 20px;
+            
+        }
+       
+       }
+     .menuham {
+
+        z-index: 10 !important;
+        
+      }
+      .navbar-nav {
+  
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+        background-color: transparent;
+     }
+}

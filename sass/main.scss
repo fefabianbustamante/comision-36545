@@ -1,52 +1,7 @@
-#header {
-
-    flex-direction: row;
-    
-    .linkInstagram {
-      
-        font-size: 20px;
-        text-align-last: right;
-        padding-right: 70px;
-        padding-top: 20px;
-        a {
-            color: black;
-            font-weight: bold;
-          }
-    
-    }
-    & &__menu {
-        display: flex;
-        font-size: 30px;
-        width: 100%;
-        justify-content: center;
-    
-     } 
-     & .btn__estilo {
-
-         background-color: rgb(34, 133, 34);
-         color: black;
-         font-weight:bolder ;
-         width: 20rem;
-         text-align: left;
-         border-radius: 20px;
-         title {
-             background-color: yellow;
-         }
-         
-     }
-}
-  .navbar-nav {
+@import "cabecera";
+   
   
-          position: absolute;
-          left: 50%;
-          transform: translatex(-50%);
-          background-color: transparent;
-  }
-  .menuham {
-
-    z-index: 10 !important;
-    
-  }
+  
   .galeria {
     display: flex;
     
@@ -83,17 +38,11 @@
   #header .logo__menu {
      
    
-   text-align: center;
-  
-  }
-  
-  #header .logo__menu h1 {
-  
-      text-align: center;
-      font-weight: 200px;
-      font-size: 20px;
-      
-  }
+    text-align: center;
+   
+   }
+   
+ 
   #galeria__main {
 
     display: grid;
