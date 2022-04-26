@@ -17,8 +17,18 @@
   font-weight: bold;
 }
 
-#header.logo__menu {
+#header .logo__menu {
   text-align: center;
+}
+
+#header .logo__menu h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+#header .logo__menu h3 {
+  font-size: 30px;
 }
 
 #header .menuham {
@@ -26,11 +36,14 @@
 }
 
 #header .navbar-nav {
+  font-weight: bolder;
   position: absolute;
   left: 50%;
   -webkit-transform: translatex(-50%);
           transform: translatex(-50%);
   background-color: transparent;
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 .galeria {
@@ -42,6 +55,13 @@
 
 main {
   position: relative;
+  background-color: #198754;
+}
+
+main p {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .mainSize {
@@ -51,26 +71,6 @@ main {
 
 .main__bg {
   background-color: green;
-}
-
-#header .header__menu ul {
-  padding: 20px;
-}
-
-#header .header__menu ul li {
-  display: inline-block;
-  list-style: none;
-  margin: 0 20px;
-}
-
-#header .logo__menu {
-  text-align: center;
-}
-
-#header .logo__menu h1 {
-  text-align: center;
-  font-weight: 200px;
-  font-size: 20px;
 }
 
 #galeria__main {
@@ -308,19 +308,30 @@ main {
           animation-duration: 5s;
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
-  /* animation: name duration timing-function delay iteration-count direction fill-mode;*/
 }
 
 .grad-radial {
   height: auto;
   padding-bottom: 20px;
-  background: radial-gradient(red, green);
+  background: radial-gradient(#198754, green);
 }
 
 .grad-radialdos {
   height: px;
   width: px;
-  /*border: 1px solid;*/
   background: radial-gradient(red, #088a08);
-  /*background: radial-gradient(aqua, red);*/
+}
+
+.carousel-inner {
+  height: 70vh !important;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  height: 70vh !important;
+}
+
+.carousel-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
 }

@@ -14,25 +14,17 @@
           }
     
     }
-//    & &__menu {
- //       display: flex;
- //       font-size: 30px;
- //       width: 100%;
- //       justify-content: center;
-    
-  //   } 
-     &.logo__menu {
-     
-   
+
+     .logo__menu {  
         text-align: center;
-        h1 {
-   
+        h1 {   
             text-align: center;
-            font-weight: 200px;
-            font-size: 20px;
-            
+            font-weight: bolder;
+            font-size: 20px;            
         }
-       
+        h3 {
+            font-size: 30px;
+        }
        }
      .menuham {
 
@@ -40,10 +32,11 @@
         
       }
       .navbar-nav {
-  
+        font-weight: bolder;
         position: absolute;
         left: 50%;
         transform: translatex(-50%);
         background-color: transparent;
+        position: sticky;
+} 
      }
-}

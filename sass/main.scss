@@ -11,6 +11,13 @@
   main {
 
     position: relative;
+    background-color:#198754 ;
+    p {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+       
+    }
   }
   .mainSize {
 
@@ -23,26 +30,18 @@
     background-color: green;
   }
  
-  #header .header__menu ul {
-  
-          padding: 20px;
+ // #header .header__menu ul {
+  //
+ //         padding: 20px;
       
-  }
-  #header .header__menu ul li {
-      display: inline-block;
+ // }
+ // #header .header__menu ul li {
+ //     display: inline-block;
       
-      list-style: none;
-      margin: 0 20px;
-  }
+  //    list-style: none;
+ //     margin: 0 20px;
+ // }
   
-  #header .logo__menu {
-     
-   
-    text-align: center;
-   
-   }
-   
- 
   #galeria__main {
 
     display: grid;
@@ -229,19 +228,28 @@
       animation-timing-function: linear;
       animation-duration: 5s;
       animation-delay: 2s;
-     /* animation: name duration timing-function delay iteration-count direction fill-mode;*/
-  
+     
   }
   .grad-radial {
     height: auto;
     padding-bottom:20px;
-    background: radial-gradient( red,green); 
+    background: radial-gradient( #198754, green); 
     
 }
 .grad-radialdos {
     height: px;
-    width: px;
-    /*border: 1px solid;*/
+    width: px; 
     background: radial-gradient(red,rgb(8, 138, 8));
-    /*background: radial-gradient(aqua, red);*/ 
+   
+}
+.carousel-inner {
+    height: 70vh !important;
+}
+.carousel-control-prev, .carousel-control-next {
+    height: 70vh !important;
+}
+.carousel-item img {
+
+   object-fit: cover;
+   overflow: hidden;
 }
