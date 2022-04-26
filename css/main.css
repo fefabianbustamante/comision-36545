@@ -3,6 +3,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  top: 10;
 }
 
 #header .linkInstagram {
@@ -42,8 +45,6 @@
   -webkit-transform: translatex(-50%);
           transform: translatex(-50%);
   background-color: transparent;
-  position: -webkit-sticky;
-  position: sticky;
 }
 
 .galeria {
@@ -331,6 +332,10 @@ main p {
 }
 
 .carousel-item img {
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;

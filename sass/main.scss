@@ -249,7 +249,8 @@
     height: 70vh !important;
 }
 .carousel-item img {
-
+    display: block;
+   align-items: center;
    object-fit: cover;
    overflow: hidden;
 }
