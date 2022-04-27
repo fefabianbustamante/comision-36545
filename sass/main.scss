@@ -29,19 +29,7 @@
 
     background-color: green;
   }
- 
- // #header .header__menu ul {
-  //
- //         padding: 20px;
-      
- // }
- // #header .header__menu ul li {
- //     display: inline-block;
-      
-  //    list-style: none;
- //     margin: 0 20px;
- // }
-  
+   
   #galeria__main {
 
     display: grid;
@@ -243,8 +231,7 @@
    
 }
 .carousel-inner {
-    height: 70vh ;
-    width: 80%;
+    @extend .img__size;
     margin-left: 10%;
     padding: 10px;
 }
@@ -256,4 +243,9 @@
    
    object-fit: cover;
    overflow: hidden;
+}
+.img__size {
+    height: 70vh;
+    width: 80%;
+
 }
