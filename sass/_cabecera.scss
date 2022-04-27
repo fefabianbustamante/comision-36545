@@ -41,5 +41,26 @@
         transform: translatex(-50%);
         background-color: transparent;
        
-} 
+        } 
      }
+     .lista {
+       list-style: none;
+       position: relative;
+       ul {
+         list-style: none;
+         background: #ffff99;
+       }
+     }
+     .btn__estilo {
+      background-color: #198754 !important;
+      border-color: black !important;
+      color: black !important;
+      font-weight: bold;
+      list-style: none;
+      width: 250px;
+      height: 30px;
+      font-size: medium;
+  }
+  .popover-title{
+    background: #ffff99;
+}

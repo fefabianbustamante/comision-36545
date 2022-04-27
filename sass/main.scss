@@ -243,14 +243,17 @@
    
 }
 .carousel-inner {
-    height: 70vh !important;
+    height: 70vh ;
+    width: 80%;
+    margin-left: 10%;
+    padding: 10px;
 }
 .carousel-control-prev, .carousel-control-next {
     height: 70vh !important;
+    width: 50%;
 }
 .carousel-item img {
-    display: block;
-   align-items: center;
+   
    object-fit: cover;
    overflow: hidden;
 }

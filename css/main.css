@@ -47,6 +47,31 @@
   background-color: transparent;
 }
 
+.lista {
+  list-style: none;
+  position: relative;
+}
+
+.lista ul {
+  list-style: none;
+  background: #ffff99;
+}
+
+.btn__estilo {
+  background-color: #198754 !important;
+  border-color: black !important;
+  color: black !important;
+  font-weight: bold;
+  list-style: none;
+  width: 250px;
+  height: 30px;
+  font-size: medium;
+}
+
+.popover-title {
+  background: #ffff99;
+}
+
 .galeria {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -324,18 +349,18 @@ main p {
 }
 
 .carousel-inner {
-  height: 70vh !important;
+  height: 70vh;
+  width: 80%;
+  margin-left: 10%;
+  padding: 10px;
 }
 
 .carousel-control-prev, .carousel-control-next {
   height: 70vh !important;
+  width: 50%;
 }
 
 .carousel-item img {
-  display: block;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
