@@ -43,15 +43,26 @@
        
         } 
      }
-    
-     .btn__estilo {
-      background-color: #198754 !important;
-      border-color: black !important;
-      color: black !important;
-      font-weight: bold;
-      list-style: none;
+     .lista {
+       list-style: none;
+     }
+     @mixin btn__std ($col, $bg) {
       width: 250px;
       height: 30px;
       font-size: medium;
+      text-align: left;
+      display: inline-block;
+      vertical-align: middle;
+      color: $col;
+      background-color: $bg;
+      border-color: black !important;
+      font-weight: bold;
+      
+     }
+    
+     .btn__estilo {
+     
+      @include btn__std(black, #198754);
+      
   }
  
