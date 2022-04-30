@@ -1,8 +1,6 @@
 @import "cabecera";
-   
   
-  
-  .galeria {
+   .galeria {
     display: flex;
     
     height: 20px;
@@ -12,6 +10,10 @@
 
     position: relative;
     background-color:#198754 ;
+    h4 {
+        font-weight: bolder;
+        text-decoration: underline;
+    }
     p {
         font-size: 20px;
         font-weight: bold;
@@ -29,6 +31,10 @@
 
     background-color: green;
   }
+  .foter h4, h5 {
+    font-size: 15px;
+
+  }
    
   #galeria__main {
 
@@ -36,7 +42,6 @@
     background-color:green ;
     display: inline-block;
     gap: 20px;
-
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr;
 
@@ -119,6 +124,20 @@
   }
    
   @media screen and (max-width: 700px ) { 
+      .foter h4, h5 {
+        font-size: 15px ;         
+    
+      }
+      main h3, h4, p {
+          font-size: 15px !important;
+          font-weight: bolder;
+          text-decoration: underline;
+          text-align: left;
+          padding: 5px;
+          .posicion {
+              padding-left: 15% !important;
+          }
+      }
       
       .header__menu ul {
          
@@ -126,8 +145,7 @@
           background-color: yellow;
          
       }
-      #header .logo__menu h1 {
-  
+      #header .logo__menu h1 { 
   
           font-size: 20px;
       }
@@ -220,7 +238,7 @@
   }
   .grad-radial {
     height: auto;
-    padding-bottom:20px;
+    padding-bottom:10px;
     background: radial-gradient( #198754, green); 
     
 }
@@ -249,3 +267,4 @@
     width: 80%;
 
 }
+

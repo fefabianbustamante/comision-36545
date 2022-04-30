@@ -10,6 +10,7 @@
         text-align-last: right;
         padding-right: 70px;
         padding-top: 20px;
+        width: auto;
         a {
             color: black;
             font-weight: bold;
@@ -33,14 +34,18 @@
         z-index: 10 !important;
         
       }
-      
+      .nav__pos {
+        width: 100px;
+        margin-left: 110px;
+      }
       .navbar-nav {
-        font-weight: bolder;
-        position: absolute;
-        left: 50%;
+        font-weight: bolder;   
+        position: sticky;     
+        //left: 50%;
+        margin-left: 22%;
         transform: translatex(-50%);
         background-color: transparent;
-       
+        
         } 
      }
      .lista {

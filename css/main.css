@@ -13,6 +13,7 @@
   text-align-last: right;
   padding-right: 70px;
   padding-top: 20px;
+  width: auto;
 }
 
 #header .linkInstagram a {
@@ -38,10 +39,16 @@
   z-index: 10 !important;
 }
 
+#header .nav__pos {
+  width: 100px;
+  margin-left: 110px;
+}
+
 #header .navbar-nav {
   font-weight: bolder;
-  position: absolute;
-  left: 50%;
+  position: -webkit-sticky;
+  position: sticky;
+  margin-left: 22%;
   -webkit-transform: translatex(-50%);
           transform: translatex(-50%);
   background-color: transparent;
@@ -76,6 +83,11 @@ main {
   background-color: #198754;
 }
 
+main h4 {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
 main p {
   font-size: 20px;
   font-weight: bold;
@@ -89,6 +101,10 @@ main p {
 
 .main__bg {
   background-color: green;
+}
+
+.foter h4, h5 {
+  font-size: 15px;
 }
 
 #galeria__main {
@@ -208,6 +224,19 @@ main p {
 }
 
 @media screen and (max-width: 700px) {
+  .foter h4, h5 {
+    font-size: 15px;
+  }
+  main h3, h4, p {
+    font-size: 15px !important;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-align: left;
+    padding: 5px;
+  }
+  main h3 .posicion, h4 .posicion, p .posicion {
+    padding-left: 15% !important;
+  }
   .header__menu ul {
     font-size: 15px;
     background-color: yellow;
@@ -330,7 +359,7 @@ main p {
 
 .grad-radial {
   height: auto;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   background: radial-gradient(#198754, green);
 }
 
