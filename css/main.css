@@ -13,11 +13,16 @@
   text-align-last: right;
   padding-right: 70px;
   padding-top: 20px;
-  width: auto;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  position: absolute;
+  top: 0px;
+  right: 20px;
 }
 
 #header .linkInstagram a {
-  color: black;
+  color: white;
   font-weight: bold;
 }
 
@@ -29,10 +34,12 @@
   text-align: center;
   font-weight: bolder;
   font-size: 20px;
+  color: white;
 }
 
-#header .logo__menu h3 {
+#header .logo__menu h2, #header .logo__menu h3 {
   font-size: 30px;
+  color: white;
 }
 
 #header .menuham {
@@ -48,14 +55,25 @@
   font-weight: bolder;
   position: -webkit-sticky;
   position: sticky;
-  margin-left: 22%;
+  margin-left: 20%;
   -webkit-transform: translatex(-50%);
           transform: translatex(-50%);
   background-color: transparent;
 }
 
+.nav-link {
+  color: white !important;
+  padding: 0 10px !important;
+}
+
+.actual {
+  background-color: #ecd3d3;
+  color: black !important;
+}
+
 .lista {
   list-style: none;
+  background-color: #198754;
 }
 
 .btn__estilo {
@@ -83,6 +101,10 @@ main {
   background-color: #198754;
 }
 
+main h3 {
+  color: white;
+}
+
 main h4 {
   font-weight: bolder;
   text-decoration: underline;
@@ -94,13 +116,17 @@ main p {
   text-align: center;
 }
 
+main .img-fluid {
+  height: 100% !important;
+}
+
 .mainSize {
   width: 85rem;
   height: 50rem;
 }
 
 .main__bg {
-  background-color: green;
+  background-color: white;
 }
 
 .foter h4, h5 {
@@ -219,7 +245,7 @@ main p {
     text-align: center;
     font-weight: bold;
     color: black;
-    background: radial-gradient(#f33a3a, green);
+    background: radial-gradient(#198754, green);
   }
 }
 
@@ -388,4 +414,8 @@ main p {
 .img__size, .carousel-inner {
   height: 70vh;
   width: 80%;
+}
+
+body {
+  background-color: #198754;
 }

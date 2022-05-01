@@ -10,9 +10,12 @@
         text-align-last: right;
         padding-right: 70px;
         padding-top: 20px;
-        width: auto;
+        width: max-content;
+        position: absolute;
+        top: 0px;
+        right: 20px;
         a {
-            color: black;
+            color: white;
             font-weight: bold;
           }
     
@@ -23,10 +26,12 @@
         h1 {   
             text-align: center;
             font-weight: bolder;
-            font-size: 20px;            
+            font-size: 20px; 
+            color: white;           
         }
-        h3 {
+        h2,h3 {
             font-size: 30px;
+            color: white;
         }
        }
      .menuham {
@@ -41,15 +46,25 @@
       .navbar-nav {
         font-weight: bolder;   
         position: sticky;     
-        //left: 50%;
-        margin-left: 22%;
+        margin-left: 20%;
         transform: translatex(-50%);
         background-color: transparent;
         
         } 
+    }
+     .nav-link {
+      color: white !important;
+      padding: 0 10px !important;
+     } 
+     .actual {
+
+      background-color: rgb(236, 211, 211);
+      color: black !important;
+
      }
      .lista {
        list-style: none;
+       background-color: #198754;
      }
      @mixin btn__std ($col, $bg) {
       width: 250px;
@@ -69,5 +84,5 @@
      
       @include btn__std(black, #198754);
       
-  }
+    }
  
