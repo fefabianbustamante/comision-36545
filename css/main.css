@@ -8,6 +8,12 @@
   top: 10;
 }
 
+#header .navbar-toggler {
+  position: relative;
+  left: -200px;
+  background-color: #f56d1f;
+}
+
 #header .linkInstagram {
   font-size: 20px;
   text-align-last: right;
@@ -22,7 +28,7 @@
 }
 
 #header .linkInstagram a {
-  color: white;
+  color: #f56d1f;
   font-weight: bold;
 }
 
@@ -34,12 +40,12 @@
   text-align: center;
   font-weight: bolder;
   font-size: 20px;
-  color: white;
+  color: #d5d7d6;
 }
 
 #header .logo__menu h2, #header .logo__menu h3 {
   font-size: 30px;
-  color: white;
+  color: #d5d7d6;
 }
 
 #header .menuham {
@@ -62,12 +68,12 @@
 }
 
 .nav-link {
-  color: white !important;
+  color: #d5d7d6 !important;
   padding: 0 10px !important;
 }
 
 .actual {
-  background-color: #ecd3d3;
+  background-color: #d5d7d6;
   color: black !important;
 }
 
@@ -98,7 +104,6 @@
 
 main {
   position: relative;
-  background-color: #198754;
 }
 
 main h3 {
@@ -118,6 +123,20 @@ main p {
 
 main .img-fluid {
   height: 100% !important;
+}
+
+main .main__margen {
+  margin: 21px;
+  padding: 10px;
+}
+
+.container {
+  margin-left: 2% !important;
+  margin-right: 10px !important;
+}
+
+.container .col {
+  background-color: #f0c248;
 }
 
 .mainSize {
@@ -241,11 +260,13 @@ main .img-fluid {
 
 @media (max-width: 992px) {
   .navbar-nav {
-    background-color: green;
     text-align: center;
     font-weight: bold;
     color: black;
-    background: radial-gradient(#198754, green);
+  }
+  .nav-item {
+    width: 150px;
+    margin-left: auto;
   }
 }
 
@@ -273,6 +294,11 @@ main .img-fluid {
   #header {
     display: flexbox;
     text-align: left;
+  }
+  .linkInstagram a {
+    position: relative;
+    left: 80px;
+    top: -10px;
   }
   #galeria {
     display: -ms-grid;
@@ -386,7 +412,7 @@ main .img-fluid {
 .grad-radial {
   height: auto;
   padding-bottom: 10px;
-  background: radial-gradient(#198754, green);
+  background-color: #1a1b1d;
 }
 
 .grad-radialdos {
@@ -414,8 +440,4 @@ main .img-fluid {
 .img__size, .carousel-inner {
   height: 70vh;
   width: 80%;
-}
-
-body {
-  background-color: #198754;
 }

@@ -3,8 +3,16 @@
     flex-direction: row;
     position: sticky !important;
     top: 10;
-      
-    .linkInstagram {
+    //background-color: #1a1b1d ;
+    
+     .navbar-toggler{
+       //width: 47px;
+       //height: 34px;
+       position: relative;
+       left: -200px;
+       background-color: #f56d1f;
+      }
+      .linkInstagram {
       
         font-size: 20px;
         text-align-last: right;
@@ -15,7 +23,7 @@
         top: 0px;
         right: 20px;
         a {
-            color: white;
+            color: #f56d1f;
             font-weight: bold;
           }
     
@@ -27,11 +35,11 @@
             text-align: center;
             font-weight: bolder;
             font-size: 20px; 
-            color: white;           
+            color: #d5d7d6;           
         }
         h2,h3 {
             font-size: 30px;
-            color: white;
+            color: #d5d7d6;
         }
        }
      .menuham {
@@ -53,12 +61,12 @@
         } 
     }
      .nav-link {
-      color: white !important;
+      color: #d5d7d6 !important;
       padding: 0 10px !important;
      } 
      .actual {
 
-      background-color: rgb(236, 211, 211);
+      background-color: #d5d7d6;
       color: black !important;
 
      }
