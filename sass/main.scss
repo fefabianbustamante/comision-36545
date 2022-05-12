@@ -10,8 +10,12 @@
 
     position: relative;
     //background-color:#198754 ;
+    h2 {
+        font-size: 25px;
+    }
     h3{
-        color: white;
+        color: black;
+        font-size: 20px;
     }
     h4 {
         font-weight: bolder;
@@ -27,15 +31,19 @@
         height: 100% !important;
     }
     .main__margen {
-        margin: 21px;
-        padding: 10px;
+        margin: 25px;
+        padding: 5px;
     }
   }
   .container {
       margin-left: 2% !important;
       margin-right: 10px !important;
+     
       .col {
-        background-color: #f0c248 
+        background-color: #f7fa5c ;
+       
+        
+        
       }
       
   }
@@ -131,23 +139,50 @@
   
   
   }
-  @media (max-width: 992px) {
+  @media screen and (max-width: 1000px) {
         .navbar-nav {     
            text-align: center;
            font-weight: bold;
            color: black;
         }
+        .navbar-collapse {
+            position: relative;
+            left: -35%;
+        }
+        .navbar {
+            position: relative;
+            left: 5%;
+            width: 0px;
+            background-color: #f56d1f;    
+        }
        .nav-item {
            width: 150px;
            margin-left: auto;
+           background-color: #f56d1f;
        }   
   }
    
   @media screen and (max-width: 700px ) { 
-      .foter h4, h5 {
-        font-size: 15px ;         
-    
+      
+    .foter h4, h5 {
+        font-size: 15px ;   
+      }      
+      .navbar-nav {
+          position: relative;
+          margin-left: 35px;
       }
+
+
+      .navbar-collapse {
+          position: relative;
+          left: -30%;
+      }  
+      .navbar {
+        position: relative;
+        left: 30px;
+        width: 0px;
+        background-color: #f56d1f;
+     }  
       main h3, h4, p {
           font-size: 15px !important;
           font-weight: bolder;
@@ -158,7 +193,10 @@
               padding-left: 15% !important;
           }
        }
-      
+       .main__margen {
+           margin: 0px;
+           padding: 5px;
+        }
       .header__menu ul {
          
           font-size: 15px;

@@ -1,3 +1,16 @@
+.btn__estilo {
+  width: 250px;
+  height: 30px;
+  font-size: medium;
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+  color: black;
+  background-color: #198754;
+  border-color: black !important;
+  font-weight: bold;
+}
+
 #header {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -6,12 +19,6 @@
   position: -webkit-sticky !important;
   position: sticky !important;
   top: 10;
-}
-
-#header .navbar-toggler {
-  position: relative;
-  left: -200px;
-  background-color: #f56d1f;
 }
 
 #header .linkInstagram {
@@ -67,32 +74,23 @@
   background-color: transparent;
 }
 
+#header .navbar-toggler {
+  background-color: #f56d1f;
+}
+
 .nav-link {
   color: #d5d7d6 !important;
   padding: 0 10px !important;
 }
 
 .actual {
-  background-color: #d5d7d6;
+  background-color: #f56d1f;
   color: black !important;
 }
 
 .lista {
   list-style: none;
   background-color: #198754;
-}
-
-.btn__estilo {
-  width: 250px;
-  height: 30px;
-  font-size: medium;
-  text-align: left;
-  display: inline-block;
-  vertical-align: middle;
-  color: black;
-  background-color: #198754;
-  border-color: black !important;
-  font-weight: bold;
 }
 
 .galeria {
@@ -106,8 +104,13 @@ main {
   position: relative;
 }
 
+main h2 {
+  font-size: 25px;
+}
+
 main h3 {
-  color: white;
+  color: black;
+  font-size: 20px;
 }
 
 main h4 {
@@ -126,8 +129,8 @@ main .img-fluid {
 }
 
 main .main__margen {
-  margin: 21px;
-  padding: 10px;
+  margin: 25px;
+  padding: 5px;
 }
 
 .container {
@@ -136,7 +139,7 @@ main .main__margen {
 }
 
 .container .col {
-  background-color: #f0c248;
+  background-color: #f7fa5c;
 }
 
 .mainSize {
@@ -258,21 +261,46 @@ main .main__margen {
   grid-row: 2/3;
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 1000px) {
   .navbar-nav {
     text-align: center;
     font-weight: bold;
     color: black;
   }
+  .navbar-collapse {
+    position: relative;
+    left: -35%;
+  }
+  .navbar {
+    position: relative;
+    left: 5%;
+    width: 0px;
+    background-color: #f56d1f;
+  }
   .nav-item {
     width: 150px;
     margin-left: auto;
+    background-color: #f56d1f;
   }
 }
 
 @media screen and (max-width: 700px) {
   .foter h4, h5 {
     font-size: 15px;
+  }
+  .navbar-nav {
+    position: relative;
+    margin-left: 35px;
+  }
+  .navbar-collapse {
+    position: relative;
+    left: -30%;
+  }
+  .navbar {
+    position: relative;
+    left: 30px;
+    width: 0px;
+    background-color: #f56d1f;
   }
   main h3, h4, p {
     font-size: 15px !important;
@@ -283,6 +311,10 @@ main .main__margen {
   }
   main h3 .posicion, h4 .posicion, p .posicion {
     padding-left: 15% !important;
+  }
+  .main__margen {
+    margin: 0px;
+    padding: 5px;
   }
   .header__menu ul {
     font-size: 15px;
