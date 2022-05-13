@@ -57,10 +57,30 @@
 
     background-color: white;
   }
-  .foter h4, h5 {
-    font-size: 15px;
-    
+  .foter__style {
+    display: flex;
+    justify-content: center;
+        height: 100px;
+        color: #f56d1f;
+        background-color: #1a1b1d;
 
+
+        h4, h5 {
+            font-size: 15px;
+            
+   } 
+        spam {
+            
+            font-weight: bolder;
+        }
+
+  }
+  .foter__logo {
+    width: auto;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
   }
    
   #galeria__main {

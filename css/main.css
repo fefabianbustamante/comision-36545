@@ -151,8 +151,36 @@ main .main__margen {
   background-color: white;
 }
 
-.foter h4, h5 {
+.foter__style {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100px;
+  color: #f56d1f;
+  background-color: #1a1b1d;
+}
+
+.foter__style h4, .foter__style h5 {
   font-size: 15px;
+}
+
+.foter__style spam {
+  font-weight: bolder;
+}
+
+.foter__logo {
+  width: auto;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
 }
 
 #galeria__main {
