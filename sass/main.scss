@@ -1,17 +1,13 @@
 @import "cabecera";
+@import "foter";
   
-   .galeria {
-    display: flex;
-    
-    height: 20px;
-
-  }
   main {
 
     position: relative;
-    //background-color:#198754 ;
+   
     h2 {
-        font-size: 25px;
+        font-size: 20px;
+        color: black;
     }
     h3{
         color: black;
@@ -31,19 +27,35 @@
         height: 100% !important;
     }
     .main__margen {
-        margin: 25px;
-        padding: 5px;
+        margin: 5px;
+        text-align: center;
+        img {
+            display:block;
+            margin:auto;
+            
+        }
+        
     }
   }
+  .card-title,p {    
+    color: #d5d7d6;
+    
+  }
+  .colorSpam {
+     
+          color: #f56d1f;
+          font-size: 30px;
+          font-weight: bolder;
+          
+      
+  }
   .container {
+      
       margin-left: 2% !important;
       margin-right: 10px !important;
      
       .col {
         background-color: #f7fa5c ;
-       
-        
-        
       }
       
   }
@@ -57,31 +69,7 @@
 
     background-color: white;
   }
-  .foter__style {
-    display: flex;
-    justify-content: center;
-        height: 100px;
-        color: #f56d1f;
-        background-color: #1a1b1d;
-
-
-        h4, h5 {
-            font-size: 15px;
-            
-   } 
-        spam {
-            
-            font-weight: bolder;
-        }
-
-  }
-  .foter__logo {
-    width: auto;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-  }
+ 
    
   #galeria__main {
 
@@ -183,10 +171,7 @@
   }
    
   @media screen and (max-width: 700px ) { 
-      
-    .foter h4, h5 {
-        font-size: 15px ;   
-      }      
+        
       .navbar-nav {
           position: relative;
           margin-left: 35px;
@@ -233,11 +218,68 @@
   
        }
        .linkInstagram a {
-
            position: relative;
            left: 80px;
            top: -10px;
         }
+        .container {
+                display: flex;
+                flex-direction: column;
+        }
+        .col {
+            width: 500px;
+            height:500px;
+            display:flex;
+            object-fit: cover;
+            flex-direction:column;
+           
+            & h2 {
+                font-size: 25px;
+                font-weight: bolder;
+            }
+            & img {
+                margin-left: 15%;
+                width:500px;
+                height:450px;
+                
+              }
+            & iframe {
+                width: 400px;
+                margin-left: 15%;
+            }
+           
+          }
+          
+        .foter__logo {
+            display: flex;
+            width: 200px;
+            height: 40px;
+            margin-top: 10px;
+            margin-left: 30%;
+        }
+        .foter__spam1 {
+            display: flex;
+            margin-top: -35px;
+            margin-left: 5px;
+            width: 50px;
+            font-size: 25px;
+            
+           }
+           .foter__tex {
+               display: flex;
+               margin-left: 60px;
+               margin-right: 1%;
+               width: 300px;
+               
+           }
+           .foter__spam2 {
+        
+              display: flex;
+              margin-top: -35px;
+              width: 50px;
+              font-size: 25px;
+        
+           }
   
         #galeria {
   
