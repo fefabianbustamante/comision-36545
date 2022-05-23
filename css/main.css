@@ -417,6 +417,7 @@ main .main__margen img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-left: 0 !important;
   }
   .col {
     width: 500px;
@@ -436,12 +437,12 @@ main .main__margen img {
     font-weight: bolder;
   }
   .col img {
-    margin-left: 15%;
-    width: 500px;
-    height: 450px;
+    margin-left: 5%;
+    width: 400px;
+    height: 380px;
   }
   .col iframe {
-    width: 400px;
+    width: 300px;
     margin-left: 15%;
   }
   .foter__logo {
@@ -451,22 +452,22 @@ main .main__margen img {
     width: 200px;
     height: 40px;
     margin-top: 10px;
-    margin-left: 30%;
+    margin-left: 25%;
   }
   .foter__spam1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-top: -35px;
-    margin-left: 5px;
+    margin-left: 1rem;
     width: 50px;
-    font-size: 25px;
+    font-size: 20px;
   }
   .foter__tex {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-left: 60px;
+    margin-left: 30px;
     margin-right: 1%;
     width: 300px;
   }
@@ -475,8 +476,9 @@ main .main__margen img {
     display: -ms-flexbox;
     display: flex;
     margin-top: -35px;
+    margin-left: -30px;
     width: 50px;
-    font-size: 25px;
+    font-size: 20px;
   }
   #galeria {
     display: -ms-grid;
