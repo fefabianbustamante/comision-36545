@@ -29,6 +29,7 @@
   .foter__contenedor {
       display: flex;
       margin-top: 6px;
+      
   }
   .foter__spam1 {
     display: flex;
@@ -41,10 +42,19 @@
    }
    .foter__tex {
        display: flex;
-       margin-left: 25%;
-       margin-right: 15%;
-       width: 500px;
+       margin-left: 20%;
+       margin-right: 12%;
+       width: 650px;
+       h5 {
+           margin-left: 20px;
+           width: 150;
+       }
        
+   }
+   .color__spam {
+       font-size: 17px;
+       color:  #d5d7d6;
+       font-weight: bold;
    }
    .foter__spam2 {
 

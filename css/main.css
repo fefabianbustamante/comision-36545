@@ -152,9 +152,20 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 25%;
-  margin-right: 15%;
-  width: 500px;
+  margin-left: 20%;
+  margin-right: 12%;
+  width: 650px;
+}
+
+.foter__tex h5 {
+  margin-left: 20px;
+  width: 150;
+}
+
+.color__spam {
+  font-size: 17px;
+  color: #d5d7d6;
+  font-weight: bold;
 }
 
 .foter__spam2 {
@@ -217,6 +228,14 @@ main .main__margen img {
   font-weight: bolder;
 }
 
+.portada {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .container {
   margin-left: 2% !important;
   margin-right: 10px !important;
@@ -224,6 +243,22 @@ main .main__margen img {
 
 .container .col {
   background-color: #f7fa5c;
+}
+
+.container .col h2 {
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.container__index {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 8% !important;
+}
+
+.container__index .col {
+  margin: 30px;
 }
 
 .mainSize {
@@ -379,14 +414,14 @@ main .main__margen img {
     width: 0px;
     background-color: #f56d1f;
   }
-  main h3, h4, p {
+  main h3, p {
     font-size: 15px !important;
     font-weight: bolder;
     text-decoration: underline;
     text-align: left;
     padding: 5px;
   }
-  main h3 .posicion, h4 .posicion, p .posicion {
+  main h3 .posicion, p .posicion {
     padding-left: 15% !important;
   }
   .main__margen {
@@ -417,11 +452,21 @@ main .main__margen img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-left: 0 !important;
+    margin-left: 1px !important;
+  }
+  .container__index {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: -26px !important;
   }
   .col {
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -433,17 +478,20 @@ main .main__margen img {
             flex-direction: column;
   }
   .col h2 {
-    font-size: 25px;
+    font-size: 20px !important;
     font-weight: bolder;
   }
   .col img {
     margin-left: 5%;
-    width: 400px;
-    height: 380px;
+    width: 330px;
+    height: 350px;
   }
   .col iframe {
-    width: 300px;
-    margin-left: 15%;
+    width: 400px;
+    height: 500px;
+  }
+  .color__spam {
+    font-size: 13px;
   }
   .foter__logo {
     display: -webkit-box;
@@ -452,14 +500,14 @@ main .main__margen img {
     width: 200px;
     height: 40px;
     margin-top: 10px;
-    margin-left: 25%;
+    margin-left: 21%;
   }
   .foter__spam1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-top: -35px;
-    margin-left: 1rem;
+    margin-left: 12px;
     width: 50px;
     font-size: 20px;
   }
@@ -467,16 +515,24 @@ main .main__margen img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-left: 30px;
+    margin-left: -10px;
     margin-right: 1%;
-    width: 300px;
+    width: 350px;
+  }
+  .foter__tex h4 {
+    width: 250px;
+    font-size: 15px;
+  }
+  .foter__tex h5 {
+    width: 100px;
+    font-size: 15 px;
   }
   .foter__spam2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-top: -35px;
-    margin-left: -30px;
+    margin-left: -100px;
     width: 50px;
     font-size: 20px;
   }
